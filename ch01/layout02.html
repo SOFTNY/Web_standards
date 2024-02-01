@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>layout2</title>
+  <style>
+    /* 전체 레이아웃 */
+    body{
+      background: #b3e5fc;
+    }
+    #layout{
+      width: 1000px;
+      height: 900px;
+      margin: 0 auto;
+      font-size: 40px;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    header{
+      width: 1000px;
+      height: 100px;
+      background-color: #0277bd;
+    }
+    nav{
+      width: 1000px;
+      height: 100px;
+      background-color: #0288d1;
+    }
+    #side_left{
+      float: left;
+      width: 300px;
+      height: 600px;
+      background-color: #039be5;
+    }
+    #contents{
+      float: left;
+      width: 400px;
+      height: 600px;
+      background-color: #03a9f4;
+    }
+    #side_right{
+      float: left;
+      width: 300px;
+      height: 600px;
+      background-color: #29b6f6;
+    }
+    footer{
+      clear: both;
+      width: 1000px;
+      height: 100px;
+      background-color: #0288d1;
+    }
+  </style>
+</head>
+<body>
+  <div id="layout">
+    
+    <!-- header -->
+    <header>header</header>
+    <!-- nav -->
+    <nav>nav</nav>
+    <!-- side_left -->
+    <aside id="side_left">side_left</aside>
+    <!-- contents -->
+    <article id="contents">contents</article>
+    <!-- side_right -->
+    <aside id="side_right">side_right</aside>
+    <!-- footer -->
+    <footer>footer</footer>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>layout6</title>
+  <style>
+    /* 리셋 */
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    /* 전체 레이아웃 */
+    #layout{
+      font-size: 40px;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    header{
+      height: 140px;
+      background: #ffe1e4;
+    }
+    #banner{
+      height: 450px;
+      background: #fbd6e3;
+    }
+    #contents{
+      height: 950px;
+      background: #ead5ee;
+    }
+    footer{
+      height: 220px;
+      background: #d6ebfd;
+    }
+
+    /* 컨테이너 */
+    .container {
+      width: 1100px;
+      height: inherit;
+      margin: 0 auto;
+      background: rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <div id="layout">
+    
+    <!-- header -->
+    <header>
+      <div class="container">header</div>
+    </header>
+
+    <!-- banner -->
+    <article id="banner">
+      <div class="container">banner</div>
+    </article>
+
+    <!-- contents -->
+    <article id="contents">
+      <div class="container">contents</div>
+    </article>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">footer</div>
+    </footer>
+
+  </div>
+</body>
+</html>

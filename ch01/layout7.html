@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>layout7</title>
+  <style>
+    /* 리셋 */
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    /* 전체 레이아웃  */
+    #layout{
+      font-size: 40px;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    header{
+      height: 140px;
+      background: #4dd0e1;
+    }
+    #banner{
+      height: 450px;
+      background: #222;
+    }
+    #contents{
+      height: 950px;
+      background: #333;
+    }
+    footer{
+      height: 220px;
+      background: #444;
+    }
+
+    /* 레이아웃 */
+    #header-top {height: 70px; background: #b2ebf2;}
+    #header-nav {height: 70px; background: #80deea;}
+    #contents1 {height: 90px; background-color: #26c6da;}
+    #contents2 {height: 480px; background-color: #00bcd4}
+    #contents3 {height: 380px; background-color: #00acc1;}
+    #footer-nav {height: 60px; background-color: #0097a7;}
+    #footer-info {height: 160px; background-color: #00838f;}
+
+    /* 컨테이너 */
+    .container{
+      width: 1100px;
+      height: inherit;
+      margin: 0 auto;
+      background: rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div id="layout">
+
+    <!-- header -->
+    <header>
+      <div id="header-top">
+        <div class="container">header-top</div>
+      </div>
+      <div id="header-nav">
+        <div class="container">header-nav</div>
+      </div>
+    </header>
+
+    <!-- banner -->
+    <div id="banner">
+      <div class="container">banner</div>
+    </div>
+
+    <!-- contents -->
+    <div id="contents">
+      <div id="contents1">
+        <div class="container">contents1</div>
+      </div>
+      <div id="contents2">
+        <div class="container">contents2</div>
+      </div>
+      <div id="contents3">
+        <div class="container">contents3</div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div id="footer-nav">
+        <div class="container">footer-nav</div>
+      </div>
+      <div id="footer-info">
+        <div class="container">footer-info</div>
+      </div>
+    </footer>
+    
+  </div>
+</body>
+</html>
